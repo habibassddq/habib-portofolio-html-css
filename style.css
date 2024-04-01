@@ -344,3 +344,99 @@ button {
   border: 1px solid white;
   border-radius: 50%;
 }
+/* Media query untuk perangkat dengan lebar layar <= 768px */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Ukuran font lebih kecil untuk tampilan Android */
+  }
+
+  nav {
+    padding: 20px 15px; /* Padding yang lebih kecil untuk tampilan Android */
+    font-size: 16px; /* Ukuran font yang lebih kecil untuk tampilan Android */
+  }
+
+  nav button {
+    padding: 8px 16px; /* Padding yang lebih kecil untuk tombol pada tampilan Android */
+    font-size: 16px; /* Ukuran font yang lebih kecil untuk tombol pada tampilan Android */
+  }
+
+  nav ul {
+    gap: 20px; /* Ruang antara elemen dalam daftar yang lebih kecil untuk tampilan Android */
+  }
+
+  nav ul a {
+    font-size: 16px; /* Ukuran font yang lebih kecil untuk tautan pada tampilan Android */
+  }
+
+  #home {
+    padding: 30px; /* Padding yang lebih kecil untuk elemen dengan ID home pada tampilan Android */
+  }
+
+  .intro h2 {
+    font-size: 28px; /* Ukuran font yang lebih kecil untuk judul h2 pada tampilan Android */
+  }
+
+  .intro h1 {
+    font-size: 36px; /* Ukuran font yang lebih kecil untuk judul h1 pada tampilan Android */
+  }
+
+  .intro h4 {
+    font-size: 16px; /* Ukuran font yang lebih kecil untuk paragraf h4 pada tampilan Android */
+  }
+
+  .intro p {
+    width: auto; /* Lebar paragraf yang dinamis pada tampilan Android */
+  }
+
+  .project h2 {
+    font-size: 24px; /* Ukuran font yang lebih kecil untuk judul h2 pada tampilan Android */
+    margin-top: 100px; /* Margin atas yang lebih kecil untuk judul h2 pada tampilan Android */
+    margin-bottom: 50px; /* Margin bawah yang lebih kecil untuk judul h2 pada tampilan Android */
+  }
+
+  .project-bar {
+    padding: 30px 20px; /* Padding yang lebih kecil untuk container project-bar pada tampilan Android */
+  }
+
+  .card {
+    padding: 10px; /* Padding yang lebih kecil untuk card pada tampilan Android */
+  }
+
+  .text-card {
+    gap: 20px; /* Ruang antara elemen dalam text-card yang lebih kecil untuk tampilan Android */
+  }
+
+  .btn-primary,
+  .btn-offer {
+    padding: 10px 16px; /* Padding yang lebih kecil untuk tombol primer dan tombol penawaran pada tampilan Android */
+  }
+
+  .testimoni-icons,
+  .footer-icon {
+    padding: 20px; /* Padding yang lebih kecil untuk kontainer icon pada tampilan Android */
+  }
+
+  .toolbox,
+  .Footer,
+  .why-hire-me {
+    padding: 50px; /* Padding yang lebih kecil untuk kontainer toolbox, footer, dan why-hire-me pada tampilan Android */
+  }
+
+  .card-hire {
+    font-size: 16px; /* Ukuran font yang lebih kecil untuk judul card-hindex.htmlire pada tampilan Android */
+  }
+
+  .toolbox img {
+    margin-top: 30px; /* Margin atas yang lebih kecil untuk gambar toolbox pada tampilan Android */
+  }
+
+  .footer-icon img {
+    width: 24px; /* Lebar gambar yang lebih kecil untuk icon pada tampilan Android */
+    height: 24px; /* Tinggi gambar yang lebih kecil untuk icon pada tampilan Android */
+  }
+}
+
+/* Media query untuk tampilan desktop */
+@media only screen and (min-width: 769px) {
+  /* Gaya CSS untuk tampilan desktop tetap tidak berubah */
+}
